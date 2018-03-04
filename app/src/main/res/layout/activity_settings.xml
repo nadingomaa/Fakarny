@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="pro.nanosystems.fakarny.MainActivity">
-
+    tools:context="pro.nanosystems.fakarny.SettingsActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
         android:padding="20dp"
-        android:text="Set an appointment "
+        android:text="Edit User "
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="20dp"
@@ -23,17 +22,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
         android:padding="20dp"
-        android:text="See Day Scedule "
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="serif-monospace"
-        android:padding="20dp"
-        android:text="Set week scedule "
+        android:text="Change Theme "
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="20dp"
@@ -44,7 +33,18 @@
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
         android:padding="20dp"
-        android:text="Set Month scedule "
+        android:text="Make Suggestions "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:padding="20dp"
+        android:text="Share Fakarny with friends "
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="20dp"
@@ -54,4 +54,3 @@
 </LinearLayout>
 
 
- 
