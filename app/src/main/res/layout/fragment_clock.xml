@@ -2,25 +2,63 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="400dp"
+    android:background="#000"
     tools:context="pro.nanosystems.fakarny.ClockFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
 
     <TimePicker
+        android:id="@+id/timePicker"
         android:layout_width="307dp"
         android:layout_height="356dp"
-        android:background="#F8BBD0"
-        android:hapticFeedbackEnabled="false"
-        android:headerBackground="#000"
-        android:numbersBackgroundColor="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:amPmTextColor="@android:color/background_dark"
+        android:background="#000000"
+        android:hapticFeedbackEnabled="true"
+        android:headerBackground="#0c9fbc"
+        android:numbersBackgroundColor="#6a6a6c"
+        android:numbersInnerTextColor="@android:color/background_dark"
+        android:numbersTextColor="@android:color/background_dark"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:amPmTextColor="@android:color/background_dark"
+        tools:numbersTextColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:gravity="center"
+        android:text="Ok"
+        android:textColor="#0c9fbc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"
+        android:layout_marginRight="36dp" />
+
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="#0c9fbc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/yes"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"
+        android:layout_marginLeft="40dp" />
 
 
 </android.support.constraint.ConstraintLayout>

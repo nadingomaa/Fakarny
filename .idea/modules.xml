@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Fakarny.iml" filepath="$PROJECT_DIR$/Fakarny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Fakarny.iml" filepath="$PROJECT_DIR$/.idea/Fakarny.iml" />
+      <module fileurl="file://C:\Users\Connect\StudioProjects\Fakarny\Fakarny\Fakarny.iml" filepath="C:\Users\Connect\StudioProjects\Fakarny\Fakarny\Fakarny.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Connect\StudioProjects\Fakarny\Fakarny\app\app.iml" filepath="C:\Users\Connect\StudioProjects\Fakarny\Fakarny\app\app.iml" />
     </modules>
   </component>
 </project>

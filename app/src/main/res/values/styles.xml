@@ -1,13 +1,21 @@
 <resources>
 
-    <!-- Base application theme. -->
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#E91E63</item>
         <item name="colorPrimaryDark">#C2185B</item>
-        <item name="colorAccent">#E91E63</item>
+        <item name="colorAccent">#0c9fbc</item>
     </style>
 
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">#0c9fbc</item>
+    </style>
+
+
+
+    
 
 
 </resources>
